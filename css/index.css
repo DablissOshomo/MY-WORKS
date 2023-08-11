@@ -1,0 +1,147 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+    
+}
+html {
+    scroll-behavior: smooth;
+}
+nav {
+    position: fixed;
+    padding: 20px 7%;
+    justify-content: space-between;
+    align-items: center;
+    height: 6em;
+    width: 100%;
+    display: flex;
+    z-index: 10;
+    transition: 0.1s ease-in-out;
+}
+.nav-active {
+    background-color: black;
+    box-shadow: 5px -1px 12px -5px grey;
+}
+.nav-active h1 {
+    color: white;
+}
+li {
+    list-style: none;
+    margin: 0 20px;
+}
+nav ul {
+    display: flex;
+}
+nav a {
+    text-decoration: none;
+    color: #aaaaaa;
+    font-size: 1.2em;
+}
+.intro {
+    width: 100%;
+    height: 100vh;
+    padding-left: 7%;
+    padding-top: 12em;
+}
+.intro h1 {
+    color: black;
+    font-size: 4.3em;
+  
+    padding: 5px 0px;
+}
+.intro p {
+    padding-top: 10px;
+    color: #aaaaaa;
+    font-size: 1.4em;
+    padding-bottom: 30px;
+}
+button {
+    width: 8.7em;
+    height: 3.3em;
+    border-radius: 2.2em;
+    color: white;
+    background: #222222;
+    font-size: 17px;
+}
+.img {
+    width: 100%;
+    height: 100vh;
+}
+.impressions {
+    height: 50vh;
+    padding: 7em 5%;
+    display: flex;
+    justify-content: space-between;
+}
+.imps {
+    display: flex;
+}
+.imps h2 {
+    font-size: 4em;
+    margin-right: 20px;
+}
+.imps p {
+    padding-top: 10px;
+    color: #aaaaaa;
+    font-size: 1.4em;
+    width: 80px;
+}
+.what-we-do {
+    height: 150vh;
+    background-color: #222222;
+    padding: 5.5em 7%;
+}
+.what-we-do h1 {
+    color: #eeeeee;
+    width: 150px;
+    font-size: 2.5em;
+    padding-bottom: 50px;
+}
+.img-container {
+    display: flex;
+    padding-top: 40px;
+    justify-content: space-evenly;
+}
+.img-container h3 {
+    color: #eeeeee;
+}
+.imgs img {
+    width: 97%;
+    height: 100%;
+}
+.imgs h3 {
+    padding-top: 20px;
+}
+.selected-projects {
+    padding: 5.5em 7%;
+    background-color: #eeeeee;
+}
+.selected-pro {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 120px;
+    padding-top: 50px;
+}
+.selected-pro h1 {
+    width: 300px;
+    font-size: 2.5em;
+}
+.project-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 0 -3%;
+    gap: 20px;
+    max-width: 1440px;
+}
+.projects {
+    padding: 10px 15px 20px 15px;
+    background-color: white;
+}
+.projects img {
+    width: 100%;
+}
+.projects h2 {
+    padding-top: 15px;
+    padding-bottom: 10px;
+}
